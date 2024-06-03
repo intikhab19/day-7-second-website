@@ -839,17 +839,22 @@ footer {
 .item4 {
     grid-area: newsletter;
 }
+.inputsubscribe{
+    display: flex;
+    column-gap: 10px;
+}
 
 .inputsubscribe>input {
     height: 44px;
     width: 220px;
+    border-radius: 5px;
     border: 1px solid #ACACAC;
     background-color: #1A1A1A;
     padding-left: 22px;
     color: white;
 }
 
-.inputsubscribe>button {
+.inputsubscribe > button {
     background-color: #9966FF;
 
     padding: 15px 15px;
@@ -861,6 +866,7 @@ footer {
 
     white-space: nowrap;
     border: none;
+    border-radius: 6px;
 }
 
 .belowcontact {
